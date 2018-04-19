@@ -1,0 +1,34 @@
+canvas {
+  border: 2px solid;
+}
+.row {
+  display: block;
+}
+#gametable {
+  min-width: 400px;
+  z-index: 2;
+  text-align: center;
+}
+.inline {
+  display: inline;
+}
+.menu {
+  position: absolute;
+  width: 20%;
+  min-width:150px;
+
+  text-align: center;
+  margin-left: 39.5%;
+  margin-right: 50%;
+  top: 175px;
+  background-color: lightgray;
+  z-index: 10;
+}
+.pointer {
+  cursor: pointer;
+}
+.menu ul {
+  padding-right: 10%;
+  font-size: 20px;
+  list-style-type: none;
+}

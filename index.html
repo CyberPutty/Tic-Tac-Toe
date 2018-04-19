@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<head>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div>
+
+    <div id="gametable">
+      <div id='newGame' class='menu'>
+        <h1 class='pointer'>New Game</h1>
+      </div>
+      <div id="restart" class="menu">
+        <h1 class='pointer'>Play Again</h1>
+      </div>
+      <div>
+        <div id='playerSelection'>
+          <div class='menu'>
+            <h1>How many players?</h1>
+            <ul>
+              <li class='pointer' id='onePlayer'>1 player</li>
+              <li class='pointer' id='twoPlayer'>2 player</li>
+            </ul>
+          </div>
+        </div>
+        <div id='XO' class='menu'>
+          <h1>Player 1</h1>
+          <h1>
+            <span id='X' class='pointer'>X</span> or
+            <span id='O' class='pointer'>O</span>
+          </h1>
+        </div>
+        <h1>Tic-Tac-Toe</h1>
+
+        <div class='row'>
+          <canvas class="pos" id="1"></canvas>
+          <canvas class="pos" id="2"></canvas>
+          <canvas class="pos" id="3"></canvas>
+        </div>
+        <div class='row'>
+          <canvas class="pos" id="4"></canvas>
+          <canvas class="pos" id="5"></canvas>
+          <canvas class="pos" id="6"></canvas>
+        </div>
+        <div class='row'>
+          <canvas class="pos" id="7"></canvas>
+          <canvas class="pos" id="8"></canvas>
+          <canvas class="pos" id="9"></canvas>
+        </div>
+
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
